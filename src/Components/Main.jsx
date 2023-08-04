@@ -8,10 +8,10 @@ import Section5 from './Pages/Section5';
 const Main = () => {
     return (
        <>
-        <Hero/>
-        <Section2/>
-        <Section3/>
-        <Section4/>
+        <div className='h-screen w-auto overflow-hidden'><Hero/></div>
+        <div className='h-screen w-auto overflow-hidden'><Section2/></div>
+        {/* <Section3/>
+        <Section4/> */}
         <Section5/>
        </>
     );

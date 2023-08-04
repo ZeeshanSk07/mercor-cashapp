@@ -26,7 +26,7 @@ const Hero = () => {
                     <img src={vector} className='w-screen h-[54.4375rem] ' alt='Vector' />
                 </div>   
             {/* header */}
-                <div className='flex flex-row justify-between space-x-4'>
+                <div className='flex flex-row justify-between '>
                     <img src={dollar} alt='Dollar' className='w-[1.875rem] h-[2.75rem]'></img>
                     {/* navbar */}
                     <div className='my-auto'>
@@ -77,7 +77,7 @@ const Hero = () => {
 
 
             {/* footer */}
-            <div className='w-screen pr-[9%] sticky bottom-0 h-[4.0625rem] flex flex-row justify-between -mt-40'>
+            <div className='w-screen pr-[9%] bottom-0 sticky h-[4.0625rem] flex flex-row justify-between -mt-40'>
                 <div className='flex flex-row justify-between my-auto py-[1.5625rem] space-x-6 uppercase font-Agandir font-[800]'>
                     <div className='flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] w-[10rem] bg-[#000000] py-auto md:px-auto rounded-[0.4375rem] md:ml-0 -ml-6 justify-center p-2'><AiFillApple color='#00D54B' size='22' className='mr-2 my-auto'/>App Store</div>
                     <div className='flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] w-[10rem] bg-[#000000] my-auto rounded-[0.4375rem] justify-center p-2'><BsGooglePlay color='#00D54B' className='mr-2 my-auto'/>Google Play</div>

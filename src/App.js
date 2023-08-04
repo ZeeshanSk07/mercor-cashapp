@@ -1,9 +1,20 @@
 import Main from "./Components/Main";
+import Hero from '../src/Components/Pages/Hero';
+import Section2 from '../src/Components/Pages/Section2';
+import Section3 from '../src/Components/Pages/Section3';
+import Section4 from '../src/Components/Pages/Section4';
+import Section5 from '../src/Components/Pages/Section5';
 
 function App() {
   return (
-    <>
-      <Main/>
+    < >
+      <div className="overflow-hidden">
+        {/* <div className='h-screen w-auto overflow-hidden'><Hero/></div>
+        <div className='h-screen w-auto overflow-hidden'><Section2/></div>
+        <Section3/> */}
+        <Section4/>
+        {/* <Section5/> */}
+      </div>
     </>
   );
 }

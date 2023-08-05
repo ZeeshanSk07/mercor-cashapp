@@ -9,11 +9,12 @@ function App() {
   return (
     < >
       <div className="overflow-hidden">
-        {/* <div className='h-screen w-auto overflow-hidden'><Hero/></div>
+        <div className='h-screen w-auto overflow-hidden'><Hero/></div>
         <div className='h-screen w-auto overflow-hidden'><Section2/></div>
-        <Section3/> */}
-        <Section4/>
-        {/* <Section5/> */}
+        <div className='h-screen w-auto overflow-hidden'><Section3/></div>
+        <div className='h-screen w-auto overflow-hidden'><Section4/></div>
+        <div className='h-screen w-auto overflow-hidden'><Section5/></div>
+        
       </div>
     </>
   );

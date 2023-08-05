@@ -25,12 +25,12 @@ const Section4 = () => {
                     <img src={hand} className='absolute -mt-96 ml-7 pt-12'/>
                 </div>
 
-                <div className='ml-[40%]'>
-                    <div className='absolute -mt-72'>
-                        <div>Cash Card<br/> & Boost</div>
-                        <div>The Cash Card is a free, customizable debit<br/> card that lets you pay online and in stores. <br/>It’s the only way to get Boosts—instant <br/>discounts that work at places where you <br/>want to spend.</div>
+                <div className='ml-[26%]'>
+                    <div className='absolute -mt-48 text-[#FFFFFF]'>
+                        <div className='font-[800] text-[2.5rem] leading-[2.5rem] font-Agrandir text-[#00D54B] mb-4'>Cash Card<br/> & Boost</div>
+                        <div className='font-[400] font-Mulish text-[1rem] leading-[1.375rem] tracking-[0.3px]'>The Cash Card is a free, customizable debit<br/> card that lets you pay online and in stores. <br/>It’s the only way to get Boosts—instant <br/>discounts that work at places where you <br/>want to spend.</div>
                     </div>
-                    <img src={phone} className='absolute -mt-72 pt-2'/>
+                    <img src={phone} className='absolute ml-[22%] -mt-72 pt-2'/>
                 </div>
           </div>  
         </>

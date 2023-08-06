@@ -1,5 +1,5 @@
 import React from "react";
-import vector2 from "../Images/Vector (2).png";
+import vector2 from "../Images/Vector (6).png";
 import paymentphone from "../Images/payments-phone 1.png";
 import pillar1 from "../Images/payments-pillar-medium (3).png";
 import pillarlg from "../Images/payments-pillar-large.png";
@@ -14,14 +14,23 @@ import pillartop2 from "../Images/payments-column (2).png";
 const Section2 = () => {
   return (
     <>
-      <div className="h-screen w-auto text-black cursor-auto overflow-hidden">
-        <div style={{ position: "absolute", zIndex: -1 }} className="bottom-6">
+      <div className="h-screen w-fit text-black cursor-pointer overflow-hidden">
+        <div style={{ position: "absolute", zIndex: -1 }} className="md:mt-80 md:pt-12 md:block hidden mt-80 mix-blend-overlay ">
           <img src={vector2} className="w-screen text-[#000000]" alt="Vector" />
         </div>
 
+        <div className="md:hidden mt-72 absolute">
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-0.25 bg-[#000000]"></div>
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-4 bg-[#000000]"></div>
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-6 bg-[#000000]"></div>
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-8 bg-[#000000] "></div>
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-20 bg-[#000000] "></div>
+          <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-36 bg-[#000000]"></div>
+        </div>
+
         <div className="flex flex-row absolute" style={{ zIndex: -1 }}>
-          <div className="my-auto ml-28 md:ml-72 pl-6">
-            <div className="text-[#00D54B] font-Agrandir leading-[2.5rem] text-[2.5rem] pb-3 font-[800]">
+          <div className="md:my-auto ml-12 md:mt-auto mt-16 md:ml-72 md:pl-6">
+            <div className="text-[#00D54B] font-Agrandir leading-[2.5rem] text-[2.5rem] md:pb-3 pb-10 font-[800]">
               Payments
             </div>
             <div className="font-Mulish font-[400] tracking-[0.3px] leading-[1.375rem]">
@@ -33,7 +42,7 @@ const Section2 = () => {
           </div>
           <img
             src={paymentphone}
-            className="justify-center pt-3 mt-16 -ml-64 "
+            className="justify-centerpt-3 md:mt-16 mt-28 -mb-20 md:-ml-64 -ml-32 "
           />
           <img
             src={pillar1}

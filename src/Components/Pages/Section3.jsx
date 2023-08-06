@@ -1,17 +1,17 @@
 import React from 'react';
-import hole1 from '../Images/section2_img/banking-hole.png';
-import track2 from '../Images/section2_img/banking-track-2.png';
-import column3 from '../Images/section2_img/banking-column.png';
-import track4 from '../Images/section2_img/banking-track-1.png';
-import ramp5 from '../Images/section2_img/banking-ramp-1.png';
-import phone6 from '../Images/section2_img/banking-phone.png';
-import stairs7 from '../Images/section2_img/banking-stairs-1.png';
-import stairs8 from '../Images/section2_img/banking-stairs-2.png';
-import ramp9 from '../Images/section2_img/banking-ramp-2.png';
-import cubes10 from '../Images/section2_img/banking-cubes.png';
-import monster11 from '../Images/section2_img/banking-monster.png';
-import tube12 from '../Images/section2_img/banking-tube.png';
-import hole13 from '../Images/section2_img/banking-hole (1).png';
+import hole1 from '../Images/section3_img/banking-hole.png';
+import track2 from '../Images/section3_img/banking-track-2.png';
+import column3 from '../Images/section3_img/banking-column.png';
+import track4 from '../Images/section3_img/banking-track-1.png';
+import ramp5 from '../Images/section3_img/banking-ramp-1.png';
+import phone6 from '../Images/section3_img/banking-phone.png';
+import stairs7 from '../Images/section3_img/banking-stairs-1.png';
+import stairs8 from '../Images/section3_img/banking-stairs-2.png';
+import ramp9 from '../Images/section3_img/banking-ramp-2.png';
+import cubes10 from '../Images/section3_img/banking-cubes.png';
+import monster11 from '../Images/section3_img/banking-monster.png';
+import tube12 from '../Images/section3_img/banking-tube.png';
+import hole13 from '../Images/section3_img/banking-hole (1).png';
 
 const Section3 = () => {
     return (

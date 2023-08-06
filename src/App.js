@@ -8,7 +8,7 @@ import Section5 from '../src/Components/Pages/Section5';
 function App() {
   return (
     < >
-      <div className="overflow-hidden">
+      <div className="overflow-x-hidden">
         <div className='h-screen w-auto overflow-hidden'><Hero/></div>
         <div className='h-screen w-auto overflow-hidden'><Section2/></div>
         <div className='h-screen w-auto overflow-hidden'><Section3/></div>

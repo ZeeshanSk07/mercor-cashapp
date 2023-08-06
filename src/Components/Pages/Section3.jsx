@@ -17,21 +17,21 @@ const Section3 = () => {
     return (
         <>
             <div className='h-screen w-screen bg-[#00D54B] overflow-hidden'>
-                <div className='flex flex-row justify-between'>
+                <div className='md:flex hidden flex-row justify-between'>
                     <img src={hole1}/>
                     <img src={track2} className='mr-56 mt-5'/>
                 </div>
 
-                <div className='flex flex-row space-x-96'>
+                <div className='md:flex hidden flex-row space-x-96'>
                     <img className='flex absolute ml-16 pl-2 -mt-16' src={column3}/>
                     <img src={track4} className='flex absolute pl-10 -mt-2'/>
                     <img src={ramp5} className='absolute flex right-0 pr-96 mt-8'/>
                 </div>
 
-                <img src={phone6} className='absolute mx-[38.2%]'/>
-                <img src={stairs7} className='absolute right-0 mt-28 mr-44'/>
+                <img src={phone6} className='absolute md:mx-[38.2%] mx-20 md:mt-0 mt-10'/>
+                <img src={stairs7} className='absolute md:block hidden right-0 mt-28 mr-44'/>
 
-                <div className='justify-between flex-row flex mt-56'>
+                <div className='justify-between flex-row md:flex hidden mt-56'>
                     <div className='flex flex-row ml-14 space-x-28'>
                         <img src={stairs8}/>
                         <img src={ramp9} className='absolute mt-24'/>
@@ -43,13 +43,13 @@ const Section3 = () => {
                     </div>
                 </div>
 
-                <div className='-mt-3 ml-[37%] space-x-60'>
+                <div className='-mt-3 ml-[37%] md:block hidden space-x-60'>
                     <img src={tube12}/>
                     <img src={hole13} className='-mt-11'/>
                 </div>
 
                 {/* text box */}
-                <div className='absolute -mt-96 ml-64'>
+                <div className='absolute md:-mt-96 mt-96 pt-32 md:pt-0 md:ml-64 ml-10'>
                     <div className='font-Agrandir font-[800] leading-[2.5rem] text-[2.5rem] text-[#FFFFFF] pb-3 -mt-10'>Banking</div>
                     <div className='font-Mulish font-[400] leading-[1.375rem] text-[#000000] tracking-[0.3px] text-[1rem]'>Receive your paycheck, tax returns, and<br/> other direct deposits up to two days early<br/> using your Cash App routing<br/> and account number.</div>
                 </div>

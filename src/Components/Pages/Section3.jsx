@@ -17,29 +17,29 @@ const Section3 = () => {
     return (
         <>
             <div className='h-screen w-screen bg-[#00D54B] overflow-hidden'>
-                <div className='md:flex hidden flex-row justify-between'>
-                    <img src={hole1}/>
-                    <img src={track2} className='mr-56 mt-5'/>
+                <div className='flex flex-row justify-between'>
+                    <img src={hole1} className='md:ml-0 -ml-20 md:mt-0 -mt-6'/>
+                    <img src={track2} className='mr-56 md:block hidden mt-5'/>
                 </div>
 
                 <div className='md:flex hidden flex-row space-x-96'>
-                    <img className='flex absolute ml-16 pl-2 -mt-16' src={column3}/>
-                    <img src={track4} className='flex absolute pl-10 -mt-2'/>
-                    <img src={ramp5} className='absolute flex right-0 pr-96 mt-8'/>
+                    <img className='flex absolute md:ml-16 md:pl-2 md:-mt-16 -mt-24' src={column3}/>
+                    <img src={track4} className='md:flex hidden  absolute pl-10 -mt-2'/>
+                    <img src={ramp5} className='absolute md:flex hidden right-0 pr-96 mt-8'/>
                 </div>
 
-                <img src={phone6} className='absolute md:mx-[38.2%] mx-20 md:mt-0 mt-10'/>
+                <img src={phone6} className='absolute md:mx-[38.2%] mx-8 md:mt-0 -mt-12'/>
                 <img src={stairs7} className='absolute md:block hidden right-0 mt-28 mr-44'/>
 
-                <div className='justify-between flex-row md:flex hidden mt-56'>
-                    <div className='flex flex-row ml-14 space-x-28'>
+                <div className='justify-between flex-row flex mt-56'>
+                    <div className='md:flex hidden flex-row ml-14 space-x-28'>
                         <img src={stairs8}/>
                         <img src={ramp9} className='absolute mt-24'/>
                     </div>
 
                     <div className='flex flex-row mr-80 space-x-16'>
-                        <img src={cubes10} className='absolute -ml-72 mt-28'/>
-                        <img src={monster11} className='absolute mt-52'/>
+                        <img src={cubes10} className='absolute md:hidden -ml-72 mt-28'/>
+                        <img src={monster11} className='absolute md:mt-52 mt-48 z-10 md:right-auto right-4'/>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Section3 = () => {
                 </div>
 
                 {/* text box */}
-                <div className='absolute md:-mt-96 mt-96 pt-32 md:pt-0 md:ml-64 ml-10'>
+                <div className='absolute md:-mt-96 mt-7 pt-32 md:pt-0 md:ml-64 ml-6'>
                     <div className='font-Agrandir font-[800] leading-[2.5rem] text-[2.5rem] text-[#FFFFFF] pb-3 -mt-10'>Banking</div>
                     <div className='font-Mulish font-[400] leading-[1.375rem] text-[#000000] tracking-[0.3px] text-[1rem]'>Receive your paycheck, tax returns, and<br/> other direct deposits up to two days early<br/> using your Cash App routing<br/> and account number.</div>
                 </div>

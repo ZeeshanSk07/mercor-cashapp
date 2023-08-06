@@ -29,7 +29,7 @@ const Section2 = () => {
         </div>
 
         <div className="flex flex-row absolute" style={{ zIndex: -1 }}>
-          <div className="md:my-auto ml-12 md:mt-auto mt-16 md:ml-72 md:pl-6">
+          <div className="md:my-auto ml-14 md:mt-auto mt-24 md:ml-72 md:pl-6">
             <div className="text-[#00D54B] font-Agrandir leading-[2.5rem] text-[2.5rem] md:pb-3 pb-10 font-[800]">
               Payments
             </div>
@@ -42,7 +42,7 @@ const Section2 = () => {
           </div>
           <img
             src={paymentphone}
-            className="justify-centerpt-3 md:mt-16 mt-28 -mb-20 md:-ml-64 -ml-32 "
+            className="justify-center pt-3 md:mt-16 mt-36 md:mb-0 md:-ml-64 -ml-32"
           />
           <img
             src={pillar1}
@@ -50,11 +50,11 @@ const Section2 = () => {
           />
           <img
             src={pillarbgest}
-            className="absolute flex-end right-0 md:flex hidden -mr-56 pr-6 mt-[13.5%]"
+            className="absolute flex-end right-0 md:flex hidden -mr-56 pr-4 mt-[13.5%]"
           />
           <img
             src={pillarsm}
-            className="w-[8.4375rem] h-[8.2075rem] md:block hidden absolute bottom-0 -mb-40 ml-[25%]"
+            className="md:w-[8.4375rem] h-[8.2075rem] absolute bottom-0 md:-mb-36 pt-14 md:pt-0 -mb-56 md:ml-[25%] ml-[49%]"
           />
         </div>
 
@@ -67,7 +67,7 @@ const Section2 = () => {
           <div className="flex flex-row mt-36">
             <img
               src={pillarrow}
-              className="absolute md:flex hidden -left-96 -ml-32"
+              className="md:absolute flex md:-left-96 md:-ml-32 -ml-16 md:mr-0 md:mt-0 mt-60"
             />
             <img
               src={pillarrow2}
@@ -80,14 +80,14 @@ const Section2 = () => {
           />
         </div>
 
-        <div className="flex flex-row left-0 mt-60 ">
+        <div className="flex flex-row left-0 mt-60">
           <img
             src={pillartop}
-            className="absolute md:flex hidden pt-16 h-[31.09625rem]"
+            className="absolute flex md:pt-16 pt-44 z-30 -ml-2 pb-12 md:pb-0 md:mt-0 -mt-9 h-[31.09625rem]"
           />
           <img
             src={pillartop2}
-            className="absolute md:flex hidden right-0 w-[54rem] h-[31.09625rem] mr-64 pr-4 pt-10"
+            className="absolute flex right-0 w-[54rem] h-[31.09625rem] md:mr-64 mr-2 md:mt-0 -mt-16 md:pb-0 pb-5 z-20 pt-52 md:pt-12"
           />
         </div>
       </div>

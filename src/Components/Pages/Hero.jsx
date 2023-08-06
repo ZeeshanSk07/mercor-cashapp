@@ -123,7 +123,7 @@ const Hero = () => {
           <div className="flex flex-row justify-between">
             <img
               src={cubebig}
-              className="w-[11.75rem] h-[11.03rem] -mt-96 md:-mt-56 ml-6  md:-ml-20"
+              className="w-[11.75rem] h-[11.03rem] -mt-96 pt-4 md:pt-0 md:-mt-56 ml-6  md:-ml-20"
             />
             <img
               src={pillar}
@@ -133,23 +133,23 @@ const Hero = () => {
         </div>
 
         {/* footer */}
-        <div className="w-screen pr-[9%] bottom-0 sticky h-[4.0625rem] flex flex-row justify-between -mt-40">
-          <div className="flex flex-row justify-between my-auto py-[1.5625rem] space-x-6 uppercase font-Agandir font-[800]">
-            <div className="flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] w-[10rem] bg-[#000000] py-auto md:px-auto rounded-[0.4375rem] md:ml-0 ml-2 justify-center p-2">
+        <div className="w-screen md:pr-[9%] md:px-0 px-7 bottom-0 sticky overflow-hidden md:overflow-visible h-[4.5rem] md:ml-0 -ml-10 flex flex-row justify-between -mt-20">
+          <div className="flex flex-row md:justify-between justify-between md:w-auto w-full my-auto py-[1.5625rem] md:space-x-6 uppercase font-Agandir font-[800]">
+            <div className="flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] min-w-fit bg-[#000000] py-auto md:px-auto px-3 rounded-[0.4375rem] justify-center p-2">
               <AiFillApple color="#00D54B" size="22" className="mr-2 my-auto" />
               App Store
             </div>
-            <div className="flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] w-[10rem] bg-[#000000] my-auto rounded-[0.4375rem] justify-center p-2">
+            <div className="flex border-[1px] border-[#FFFFFF] md:w-[10.625rem] min-w-fit bg-[#000000] my-auto rounded-[0.4375rem] justify-center p-2">
               <BsGooglePlay color="#00D54B" className="mr-2 my-auto" />
               Google Play
             </div>
           </div>
 
-          <div className="ml-64 p-4">
+          <div className="ml-64 p-4 md:block hidden">
             <BsArrowDown color="#00D54B" size="35" />
           </div>
 
-          <div className="flex flex-row">
+          <div className="md:flex hidden flex-row">
             <div className="font-Mulish text-[#B6B6B6] leading-[0.8125rem] px-1.5 mr-16 text-[0.625rem] w-[22.6875rem]">
               Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
               See our BrokerCheck. Investing involves risk; you may lose money.
@@ -159,7 +159,7 @@ const Hero = () => {
               Savings Bank, Members FDIC.
             </div>
 
-            <div className="flex flex-row my-auto justify-between space-x-12 mr-12 p-2">
+            <div className="md:flex hidden flex-row my-auto justify-between space-x-12 mr-12 p-2">
               <img src={insta} />
               <img src={twitter} />
               <img src={social} />

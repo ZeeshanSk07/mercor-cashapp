@@ -51,10 +51,10 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <img src={eye} alt="View" className="w-[4rem] h-[2.25rem] md:ml-0 -ml-6 md:mt-0 mt-1"></img>
+          <img src={eye} alt="View" className="w-[4rem] h-[2.25rem] md:mt-0 mt-1"></img>
           <div className={`flex md:hidden ml-6 mr-10 ${!open ? 'bg-white' : ''}`} onClick={() => {setopen(!open)}}>
               {open ? (
-                <CgMenuGridO size={44} color="#00D54B" className="absolute" />
+                <CgMenuGridO size={46} color="#00D54B" className="absolute" />
               ) : (
                 <RxCross2 size={44} color="#00D54B" className="absolute z-30" />
               )}

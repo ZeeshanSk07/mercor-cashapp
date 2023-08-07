@@ -20,7 +20,7 @@ const Section5 = () => {
             <img src={vector3} className="md:w-screen w-[100rem] md:h-auto h-[100vh]" alt="Vector" />
           </div>
 
-          <div className="font-[800] font-Agrandir text-[#FFFFFF] text-center justify-center text-[2.5rem] flex leading-[2.5rem] md:pt-24 pt-20 pb-16">
+          <div className="font-[800] font-['Agrandir'] text-[#FFFFFF] text-center justify-center text-[2.5rem] flex leading-[2.5rem] md:pt-24 pt-20 pb-16">
             Investing
           </div>
 

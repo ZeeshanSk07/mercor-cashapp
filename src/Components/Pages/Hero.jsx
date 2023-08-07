@@ -4,17 +4,13 @@ import dollar from "../Images/logo.png";
 import eye from "../Images/eye button.png";
 import { CgMenuGridO } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
-import { AiFillApple } from "react-icons/ai";
-import { BsGooglePlay } from "react-icons/bs";
+
 import cube from "../Images/intro-cube 1.png";
 import cubebig from "../Images/intro-cubes 1.png";
 import pillar from "../Images/intro-pillar 1.png";
 import stairs from "../Images/intro-stairs 1.png";
 import phone from "../Images/intro-phone 1.png";
-import twitter from "../Images/Frame (1).png";
-import social from "../Images/Frame.png";
-import insta from "../Images/Frame (2).png";
-import { BsArrowDown } from "react-icons/bs";
+
 
 const Hero = () => {
   const [open, setopen] = useState(true);
@@ -38,7 +34,7 @@ const Hero = () => {
           <div className="my-auto">
             
             <div className="uppercase my-auto md:flex hidden">
-              <ul className="flex-row flex space-x-6 font-[800] tracking-[0.5px] text-[0.75rem]">
+              <ul className="flex-row font-['Agrandir'] flex space-x-6 font-[800] tracking-[0.5px] text-[0.75rem]">
                 <li>Sign In</li>
                 <li>Legal</li>
                 <li>Licenses</li>
@@ -105,18 +101,18 @@ const Hero = () => {
             />
             <img
               src={stairs}
-              className="w-[12.5rem] h-[16.30625rem] md:block hidden md:mt-0 -mt-16 mb-4 md:ml-0 ml-28 mr-56"
+              className="w-[12.5rem] h-[16.30625rem] md:block hidden md:mt-0 -mt-16 mb-4 md:ml-0 ml-28 mr-32"
             />
           </div>
           <div className="md:w-auto md:h-auto mx-auto text-center absolute -z-10 md:z-0 md:relative mt-12 md:ml-auto -ml-28 md:-mt-40 uppercase  ">
-            <div className="md:text-[12.0625rem] text-[6rem] font-[800] md:w-[44.4375rem] tracking-widest md:h-[18.93rem] leading-[10.375rem] md:mr-52 md:pb-8 pb-4 mt-8 -mr-10">
+            <div className="md:text-[12.0625rem] font-['Agrandir'] text-[5rem] font-[800] md:w-[44.4375rem]  md:h-[18.93rem] leading-[10.375rem] md:mr-52 md:pb-8 pb-4 mt-8 -mr-10">
               CASh
             </div>
             <img
               src={phone}
-              className="md:-mt-[21.4rem] -mt-36 pr-20 md:pr-0 ml-48 mb-6 w-60 h-40 md:w-[23.125rem] md:h-[28.3175rem]"
+              className="md:-mt-[23rem] -mt-36 pr-20 md:pr-0 md:ml-48 ml-44 mb-6 w-60 h-40 md:w-[23.125rem] md:h-[28.3175rem]"
             />
-            <div className="md:text-[12.0625rem] text-[6rem] font-[800] md:w-[44.4375rem] md:h-[18.93rem] tracking-wider md:-mt-72 -mt-36 mb-16 md:mr-56 -mr-8 leading-[10.375rem]">
+            <div className="md:text-[12.0625rem] text-[5rem] font-[800] md:w-[44.4375rem] md:h-[18.93rem] font-['Agrandir'] md:-mt-64 -mt-36 mb-16 md:mr-56 -mr-8 leading-[10.375rem]">
               APp
             </div>
           </div>

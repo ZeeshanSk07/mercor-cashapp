@@ -1,4 +1,4 @@
-import Main from "./Components/Main";
+
 import Hero from '../src/Components/Pages/Hero';
 import Section2 from '../src/Components/Pages/Section2';
 import Section3 from '../src/Components/Pages/Section3';
@@ -10,7 +10,7 @@ import Footer from "./Components/Pages/Footer";
 function App() {
   return (
     < >
-      <div className="overflow-hidden">
+      <div className="overflow-hidden cursor-pointer">
         <div className='h-screen w-auto'><Hero/></div>
         
         <div className='h-screen w-auto overflow-hidden'><Section2/></div>

@@ -30,7 +30,7 @@ const Section2 = () => {
 
         <div className="flex flex-row absolute" style={{ zIndex: -1 }}>
           <div className="md:my-auto ml-14 md:mt-auto mt-24 md:ml-72 md:pl-6">
-            <div className="text-[#00D54B] font-Agrandir leading-[2.5rem] text-[2.5rem] md:pb-3 pb-10 font-[800]">
+            <div className="text-[#00D54B] md:font-['Agrandir'] leading-[2.5rem] text-[2.5rem] md:pb-3 pb-10 font-[800]">
               Payments
             </div>
             <div className="font-Mulish font-[400] tracking-[0.3px] leading-[1.375rem]">

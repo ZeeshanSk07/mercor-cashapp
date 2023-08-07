@@ -15,7 +15,7 @@ const Section5 = () => {
         style={{ boxSizing: "border-box" }}
         className="h-screen md:w-auto min-w-fit cursor-auto m-0 p-0 overflow-hidden"
       >
-        <div className="w-screen md:h-[55%] h-[60%] bg-[#00D54B] mix-blend-overlay">
+        <div className="w-screen h-[55%] bg-[#00D54B] mix-blend-overlay">
           <div style={{ position: "absolute", zIndex: -1 }} className="md:-mt-24">
             <img src={vector3} className="md:w-screen w-[100rem] md:h-auto h-[100vh]" alt="Vector" />
           </div>
@@ -37,19 +37,19 @@ const Section5 = () => {
               </div>
             </div>
 
-            <div className="md:p-6 md:hidden md:h-[8.5rem] h-auto mx-4 md:ml-0 -ml-14 md:mt-4 mt-10">
+            <div className="md:p-6 md:hidden md:h-[8.5rem] h-auto mx-4 md:ml-0 -ml-14 md:mt-4 mt-2">
               <div className="font-Agrandir font-[800] leading-[2.5rem] text-[1.2rem] md:text-[1.375rem]">
                 Stocks
               </div>
               <div className="md:text-[1rem] text-[0.85rem]">
-                Whether you’re an expert or just<br /> getting
-                 started, Cash App is the <br />fastest and most
-                 accessible way<br /> to invest in stocks. Start now
-                 with<br/> as little as $1.
+                Whether you’re an expert or <br />just getting
+                 started, Cash<br /> App is the fastest and most<br />
+                 accessible way to invest in <br/> stocks. Start now
+                 withas little<br/> as $1.
               </div>
             </div>
 
-            <div className="md:-ml-32">
+            <div className="md:-ml-32 md:mt-0 -mt-6">
               <img
                 src={stock}
                 style={{ zIndex: 1 }}
@@ -96,13 +96,13 @@ const Section5 = () => {
             />
           </div>
 
-          <div className="-mt-96 w-screen md:block hidden">
-            <img src={graph1} className="absolute -mt-10 w-[47%]" />
+          <div className="-mt-96 w-screen ">
+            <img src={graph1} className="absolute md:-mt-10 mt-32 nd:h-auto h-[35%] md:w-[47%] w-[90%]" />
             <img
               src={graph2}
-              className="absolute right-0 -mt-[28.6%] w-[21%] "
+              className="absolute md:block hidden right-0 -mt-[28.6%] w-[21%] "
             />
-            <img src={graph3} className="absolute right-0 -mt-8 w-[30%]" />
+            <img src={graph3} className="absolute md:block hidden right-0 -mt-8 w-[30%]" />
           </div>
         </div>
       </div>

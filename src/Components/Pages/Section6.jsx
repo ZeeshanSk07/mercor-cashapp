@@ -15,26 +15,26 @@ const Section6 = () => {
         style={{ boxSizing: "border-box" }}
         className="h-screen md:w-auto min-w-fit cursor-auto m-0 p-0 overflow-hidden"
       >
-        <div className="w-screen md:h-[55%] h-[60%] bg-[#00D54B] mix-blend-overlay">
+        <div className="w-screen h-[55%] bg-[#00D54B] mix-blend-overlay">
           <div style={{ position: "absolute", zIndex: -1 }} className="md:-mt-24">
             <img src={vector3} className="md:w-screen w-[100rem] md:h-auto h-[100vh]" alt="Vector" />
           </div>
 
 
           <div className="flex flex-row-reverse w-fit md:w-auto justify-between px-[5rem] bottom-0">
-              <div className="md:p-6 md:hidden md:h-[8.5rem] h-auto md:mx-4 mx-44 pl-2 md:pl-auto md:mr-auto pt-1 md:pt-auto -mr-40 md:mt-4 mt-52">
+              <div className="md:p-6 md:hidden md:h-[8.5rem] h-auto md:mx-4 mx-44 pl-2 md:pl-auto md:mr-auto pt-1 md:pt-auto -mr-40 md:mt-4 mt-44">
                 <div className="font-Agrandir font-[800] leading-[2.5rem] text-[1.2rem] md:text-[1.375rem]">
                   Bitcoin
                 </div>
                 <div className="md:text-[1rem] text-[0.85rem]">
-                  Cash App is the fastest way to<br /> convert
-                   dollars to bitcoin. From<br />  your home screen,
-                  six taps are<br /> all it takes to stack sats, buy an<br/>
-                   entire bitcoin, or just see what<br/> it’s all about.
+                  Cash App is the fastest way <br />to convert
+                   dollars to bitcoin.<br /> From  your home screen,
+                  six <br />taps are all it takes to stack <br/>
+                  sats, buy an entire bitcoin,<br/> or just see what it’s all about.
                 </div>
               </div>
 
-              <div className="md:-ml-32 -ml-12 md:mt-auto mt-44">
+              <div className="md:-ml-32 -ml-16 md:mt-auto mt-36">
                 <img
                   src={bitcoin}
                   style={{ zIndex: 1 }}
@@ -62,13 +62,9 @@ const Section6 = () => {
             />
           </div>
 
-          <div className="-mt-96 w-screen md:block hidden">
-            <img src={graph1} className="absolute -mt-10 w-[47%]" />
-            <img
-              src={graph2}
-              className="absolute right-0 -mt-[28.6%] w-[21%] "
-            />
-            <img src={graph3} className="absolute right-0 -mt-8 w-[30%]" />
+          <div className="-mt-96 w-screen">
+           
+            <img src={graph3} className="absolute right-0 md:-mt-8 mt-12 md:w-[30%] w-[80%]" />
           </div>
         </div>
       </div>

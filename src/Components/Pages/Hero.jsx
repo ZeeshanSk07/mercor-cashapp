@@ -62,7 +62,7 @@ const Hero = () => {
         </div>
         {!open ? (
           <div>
-            <ul className={`text-[#00D54B] absolute z-20 bg-white bg-opacity-90 pb-[44.45%] pt-28 -mt-20 md:hidden ${open ? '-right-full' : 'right-0'} transform transition ease-linear duration-100 absolute flex-col text-center flex font-[800] leading-[0.5px] uppercase text-[1rem]`}>
+            <ul className={`text-[#00D54B] h-full absolute z-20 bg-white bg-opacity-90 pb-[44.45%] pt-28 -mt-20 ${!open ? 'right-0': open ? '-right-20' : ''} md:hidden ease-linear duration-300 absolute flex-col text-center flex font-[800] leading-[0.5px] uppercase text-[1rem]`}>
               <li className="py-5 px-16 w-auto border-white border-[1px]">
                 Sign In
               </li>

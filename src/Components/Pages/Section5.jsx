@@ -13,23 +13,23 @@ const Section5 = () => {
     <>
       <div
         style={{ boxSizing: "border-box" }}
-        className="h-screen w-auto cursor-auto m-0 p-0 overflow-hidden"
+        className="h-screen md:w-auto min-w-fit cursor-auto m-0 p-0 overflow-hidden"
       >
-        <div className="w-screen h-[55%] bg-[#00D54B] mix-blend-overlay">
-          <div style={{ position: "absolute", zIndex: -1 }} className="-mt-24">
-            <img src={vector3} className="w-screen" alt="Vector" />
+        <div className="w-screen md:h-[55%] h-[60%] bg-[#00D54B] mix-blend-overlay">
+          <div style={{ position: "absolute", zIndex: -1 }} className="md:-mt-24">
+            <img src={vector3} className="md:w-screen w-[100rem] md:h-auto h-[100vh]" alt="Vector" />
           </div>
 
-          <div className="font-[800] font-Agrandir text-[#FFFFFF] text-center justify-center text-[2.5rem] flex leading-[2.5rem] pt-24 pb-16">
+          <div className="font-[800] font-Agrandir text-[#FFFFFF] text-center justify-center text-[2.5rem] flex leading-[2.5rem] md:pt-24 pt-20 pb-16">
             Investing
           </div>
 
-          <div className="flex flex-row justify-between px-[5rem] bottom-0">
-            <div className="p-6 h-[8.5rem] mx-4 mt-4">
-              <div className="font-Agrandir font-[800] leading-[2.5rem] text-[1.375rem]">
+          <div className="flex flex-row w-fit md:w-auto justify-between px-[5rem] bottom-0">
+            <div className="md:p-6 md:block hidden md:h-[8.5rem] h-auto mx-4 md:ml-0 -ml-14 md:mt-4">
+              <div className="font-Agrandir font-[800] leading-[2.5rem] text-[1.2rem] md:text-[1.375rem]">
                 Stocks
               </div>
-              <div>
+              <div className="md:text-[1rem] text-[0.85rem]">
                 Whether you’re an expert or just getting
                 <br /> started, Cash App is the fastest and most
                 <br /> accessible way to invest in stocks. Start now
@@ -37,14 +37,26 @@ const Section5 = () => {
               </div>
             </div>
 
-            <div className="-ml-32">
+            <div className="md:p-6 md:hidden md:h-[8.5rem] h-auto mx-4 md:ml-0 -ml-14 md:mt-4 mt-10">
+              <div className="font-Agrandir font-[800] leading-[2.5rem] text-[1.2rem] md:text-[1.375rem]">
+                Stocks
+              </div>
+              <div className="md:text-[1rem] text-[0.85rem]">
+                Whether you’re an expert or just<br /> getting
+                 started, Cash App is the <br />fastest and most
+                 accessible way<br /> to invest in stocks. Start now
+                 with<br/> as little as $1.
+              </div>
+            </div>
+
+            <div className="md:-ml-32">
               <img
                 src={stock}
                 style={{ zIndex: 1 }}
                 className="absolute w-[10rem]"
               />
             </div>
-            <div className="ml-16">
+            <div className="ml-16 md:block hidden">
               <img
                 src={bitcoin}
                 style={{ zIndex: 1 }}
@@ -52,7 +64,7 @@ const Section5 = () => {
               />
             </div>
 
-            <div className="p-6 h-[8.5rem] mr-20 mt-4">
+            <div className="p-6 h-[8.5rem] md:block hidden mr-20 mt-4">
               <div className='font-"Agrandir" font-[800] leading-[2.5rem] text-[1.375rem]'>
                 Bitcoin
               </div>
@@ -66,25 +78,25 @@ const Section5 = () => {
           </div>
         </div>
 
-        <div className="w-screen h-[45%] overflow-hidden">
+        <div className="w-screen h-[45%] md:mt-auto mt-2 overflow-hidden">
           <div className="mix-blend-overlay">
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-0.25 bg-[#000000]"></div>
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-4 bg-[#000000]"></div>
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-6 bg-[#000000]"></div>
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-8 bg-[#000000] "></div>
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-20 bg-[#000000] "></div>
-            <div className=" w-screen h-[0.12rem] bg-opacity-10 mt-36 bg-[#000000]"></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-0.25 mt-1 bg-[#000000]"></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-4 mt-6 bg-[#000000]"></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-6 mt-12 bg-[#000000]"></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-8 mt-14 bg-[#000000] "></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-20 mt-16 bg-[#000000] "></div>
+            <div className=" md:w-screen w-[3wh] h-[0.12rem] bg-opacity-10 md:mt-36 mt-20 bg-[#000000]"></div>
           </div>
 
           <div className="mix-blend-overlay -mt-80 pt-3">
-            <img src={vectorsec5} className="opacity-30 pl-10 h-[20.15rem]" />
+            <img src={vectorsec5} className="md:opacity-30 opacity-50 md:pl-10 md:h-[20.15rem] h-[18rem] -pl-14" />
             <img
               src={vectorsec52}
-              className="-mt-60 ml-4 h-[20.15rem] opacity-30"
+              className="-mt-60 ml-4 h-[20.15rem] md:block hidden opacity-30"
             />
           </div>
 
-          <div className="-mt-96 w-screen">
+          <div className="-mt-96 w-screen md:block hidden">
             <img src={graph1} className="absolute -mt-10 w-[47%]" />
             <img
               src={graph2}
